@@ -30,7 +30,7 @@ public class Car {
 	 * @param speed
 	 * @param name
 	 */
-	public Car(int speed, String name) {
+	public Car(Integer speed, String name) {
 		super();
 		this.speed = speed;
 		this.name = name;
