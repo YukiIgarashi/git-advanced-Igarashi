@@ -15,7 +15,7 @@ public class Car {
 	/**
 	 * Carの名前
 	 */
-	private String lastName;
+	private String firstName;
 	
 	
 	/**
@@ -30,10 +30,10 @@ public class Car {
 	 * @param speed
 	 * @param name
 	 */
-	public Car(Integer speed, String lastName) {
+	public Car(Integer speed, String firstName) {
 		super();
 		this.speed = speed;
-		this.lastName = lastName;
+		this.firstName = firstName;
 	}
 
 	public Integer getSpeed() {
@@ -44,14 +44,14 @@ public class Car {
 		this.speed = speed;
 	}
 	public String getName() {
-		return lastName;
+		return firstName;
 	}
-	public void setName(String lastName) {
-		this.lastName = lastName;
+	public void setName(String name) {
+		this.firstName = name;
 	}
 	@Override
 	public String toString() {
-		return "Car [speed=" + speed + ", lastName=" + lastName + "]";
+		return "Car [speed=" + speed + ", firstName=" + firstName + "]";
 	}
 	
 	
