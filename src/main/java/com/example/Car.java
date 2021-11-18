@@ -10,7 +10,7 @@ public class Car {
 	/**
 	 * Carのスピード
 	 */
-	private int speed;
+	private Integer speed;
 	
 	/**
 	 * Carの名前
@@ -36,11 +36,11 @@ public class Car {
 		this.name = name;
 	}
 
-	public int getSpeed() {
+	public Integer getSpeed() {
 		return speed;
 	}
 	
-	public void setSpeed(int speed) {
+	public void setSpeed(Integer speed) {
 		this.speed = speed;
 	}
 	public String getName() {
